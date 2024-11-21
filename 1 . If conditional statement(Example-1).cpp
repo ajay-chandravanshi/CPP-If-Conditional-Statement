@@ -5,13 +5,18 @@ int main()
     int a;
     int b;
     cout<<"Enter Two number=";
-    cin>>a;
-    if(a<b)
-    {
-        cout<<a<<" is less then "<<b;
-    }
+    cin>>a>>b;
+ 
     if(a>b)
     {
-        cout<<a<<" is greater then "<<b;
+        cout<<"First number is greater then Second";
+    }
+    if(a<b)
+    {
+        cout<<"Second number is greater then First";
+    }
+    if(a==b)
+    {
+        cout<<"Both Number is Equal";
     }
 }
